@@ -29,19 +29,26 @@ def reverse_string str
 	str.reverse
 end
 
-# write a function that returns the year of birth from an age
+# write a funtion that should return a string not containing any vowles'
 # disemvowel
-def disemvowel
+def disemvowel str
+	str.delete('aeiou')
+
 end
 
 # write a fucntion that removes all ODD number from an array
 # remove_odd
-def remove_odd
+def remove_odd nums
+	nums.delete_if {|n| n%2 == 1 } 
+
+
+
 end
 
 # write a fucntion that removes all EVEN number from an array
 # remove_even
-def remove_even 
+def remove_even nums
+	nums.delete_if {|n| n%2 == 0 } 
 end
 
 # write a function that takes an array of strings and returns the string with the longest char langth
