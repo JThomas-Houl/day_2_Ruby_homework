@@ -1,11 +1,13 @@
 # Write a function that multiplies two numbers and returns the result
 # multiply
-def multiply
+def multiply num1, num2
+	return num1 * num2
 end
 
 # Write a function that multiplies three numbers and returns the result
 # add_three
-def add_three
+def add_three num1, num2, num3
+	ans = num1 * num2 * num3
 end
 
 # Write a function that returns the smaller of 2 numbers
