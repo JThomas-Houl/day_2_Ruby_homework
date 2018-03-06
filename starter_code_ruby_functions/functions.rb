@@ -7,23 +7,26 @@ end
 # Write a function that multiplies three numbers and returns the result
 # add_three
 def add_three num1, num2, num3
-	ans = num1 * num2 * num3
+	ans = num1 + num2 + num3
 end
 
 # Write a function that returns the smaller of 2 numbers
 # smallest_number
 
-def smallest_number
+def smallest_number first_Num, second_Num
+	[first_Num, second_Num].min
 end
 
 # Write a function that returns the largest of 3 numbers
 # max_of_three
-def max_of_three
+def max_of_three num1, num2, num3
+	[num1, num2, num3].max
 end
 
 # Write a function that returns the reverse a string 
 # reverse_string
-def reverse_string 
+def reverse_string str
+	str.reverse
 end
 
 # write a function that returns the year of birth from an age
