@@ -53,18 +53,25 @@ end
 
 # write a function that takes an array of strings and returns the string with the longest char langth
 # longest_string
-def longest_string 
+def longest_string l_String
+	l_String.max_by(&:length) # => "three"
 end
 
 # discard the first 3 elements of an array, 
 # e.g. [1, 2, 3, 4, 5, 6] becomes [4, 5, 6]
-def all_elements_except_first_3
+def all_elements_except_first_3 num_Array
+
+	new_Array = num_Array.reverse.take 4
+
+	new_Array.reverse
+
 end
 
 # turn an array (with an even number of elements) into a hash, by
 # pairing up elements. e.g. ['a', 'b', 'c', 'd'] becomes
 # {'a' => 'b', 'c' => 'd'}
-def convert_array_to_a_hash
+def convert_array_to_a_hash 
+
 end
 
 # Write a functino that takes any number and returns a value based on these rules 
@@ -74,6 +81,8 @@ end
 # For numbers which are multiples of both three and five print "FizzBuzz".
 
 def fizz_buzz number 
+
+
 end
 
 
